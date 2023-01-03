@@ -1,0 +1,15 @@
+INSERT INTO Sale(seller_name,visited,deals,amount,date) VALUES ('Anakin',78,34,20795.0,'2022-03-27');
+INSERT INTO Sale(seller_name,visited,deals,amount,date) VALUES ('Logan',83,44,4938.0,'2022-03-26');
+INSERT INTO Sale(seller_name,visited,deals,amount,date) VALUES ('Logan',32,12,6926.0,'2022-03-13');
+INSERT INTO Sale(seller_name,visited,deals,amount,date) VALUES ('Logan',64,33,8193.0,'2022-03-13');
+INSERT INTO Sale(seller_name,visited,deals,amount,date) VALUES ('Barry Allen',39,39,10557.0,'2022-03-05');
+INSERT INTO Sale(seller_name,visited,deals,amount,date) VALUES ('Barry Allen',158,84,21601.0,'2022-03-02');
+INSERT INTO Sale(seller_name,visited,deals,amount,date) VALUES ('Padme',82,82,22465.0,'2022-02-27');
+INSERT INTO Sale(seller_name,visited,deals,amount,date) VALUES ('Barry Allen',68,56,12595.0,'2022-02-17');
+INSERT INTO Sale(seller_name,visited,deals,amount,date) VALUES ('Logan',27,13,4636.0,'2022-02-16');
+INSERT INTO Sale(seller_name,visited,deals,amount,date) VALUES ('Kal-El',52,33,10155.0,'2022-02-14');
+INSERT INTO Sale(seller_name,visited,deals,amount,date) VALUES ('Kal-El',142,81,13610.0,'2022-02-13');
+INSERT INTO Sale(seller_name,visited,deals,amount,date) VALUES ('Padme',81,45,15306.0,'2022-02-08');
+INSERT INTO Sale(seller_name,visited,deals,amount,date) VALUES ('Anakin',64,35,17460.0,'2022-02-07');
+INSERT INTO Sale(seller_name,visited,deals,amount,date) VALUES ('Anakin',48,24,21413.0,'2022-02-03');
+INSERT INTO Sale(seller_name,visited,deals,amount,date) VALUES ('Barry Allen',150,82,6505.0,'2022-01-26');
