@@ -1,4 +1,4 @@
-package com.group.slp.sale;
+package com.group.slp.event;
 
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
@@ -9,9 +9,9 @@ import org.springframework.stereotype.Repository;
 import java.time.LocalDate;
 
 @Repository
-public interface SaleRepository extends JpaRepository<Sale, Long> {
+public interface EventRepository extends JpaRepository<Event, Long> {
 
-    @Query("SELECT obj FROM Sale obj WHERE obj.date BETWEEN :min AND :max ORDER BY obj.amount DESC")
-    Page<Sale> findAllBetweenDate(LocalDate min, LocalDate max, Pageable pageable);
+    @Query("SELECT obj FROM Event obj WHERE obj.date BETWEEN :min AND :max")
+    Page<Event> findAllBetweenDate(LocalDate min, LocalDate max, Pageable pageable);
 
 }
